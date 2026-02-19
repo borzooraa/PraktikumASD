@@ -51,7 +51,7 @@ the solution is implemented in array23.java, and below is screenshot of the resu
 ## 1.4 Function Solution
 the solution is implemented in function23.java, and below is screenshot of the result. 
 
-![Screenshot](img/fungsi23.png)
+![Screenshot](img/fungsi.png)
 
 **Brief explanation** There are 5 steps:
 1. Store the stock data of products for each branch in a two-dimensional array
