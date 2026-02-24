@@ -40,7 +40,7 @@ Jawaban pertanyaan:
 ![Screenshot](img/percobaan3_perctanyaan3.png)
 Hal ini dikarenakan ketika kita membuat konstruktor yang berparameter java tidak akan membuat konstruktor kosong secara otomatis.
 4. Tidak, hal ini dikarenakan methot dapat diakses dari namanya terlepas dari urutannya.
-5. ![Screenshot](img/percobaan3_perctanyaan1.png)ae
+5. ![Screenshot](img/percobaan3_perctanyaan5.png)ae
 
 ## 1.4. Latihan Praktikum 
 ### 1.4.1 Latihan 1
