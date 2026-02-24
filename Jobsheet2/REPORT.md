@@ -3,7 +3,7 @@
 | NIM |  254107020229|
 | Nama | Nurfakiyah Rahmadhani |
 | Kelas | TI - 1F |
-| Repository | [link] (link) |
+| Repository | [link] (https://github.com/borzooraa/PraktikumASD/tree/main/Jobsheet2) |
 
 # Labs #1 OBJECT
 
@@ -34,7 +34,8 @@ untuk hasil running program pada percobaan 3 yaitu seperti pada gambar di bawah 
 ![Screenshot](img/percobaan3.png)
 
 Jawaban pertanyaan:
-1. ![Screenshot](img/percobaan3_pertanyaan1.png)
+1. Barisnya yaitu:
+![Screenshot](img/percobaan3_pertanyaan1.png)
 2. Pengisian argumen
 3. Hasil runningnya yaitu
 ![Screenshot](img/percobaan3_pertanyaan3.png)
@@ -44,4 +45,7 @@ Hal ini dikarenakan ketika kita membuat konstruktor yang berparameter java tidak
 
 ## 1.4. Latihan Praktikum 
 ### 1.4.1 Latihan 1
+![Screenshot](img/tugas1.png)
+
 ### 1.4.2 Latihan 2
+![Screenshot](img/tugas2.png)
