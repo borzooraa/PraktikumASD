@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class mataKuliahDemo23 {
     public static void main(String[] args) {
         Scanner kiyah = new Scanner(System.in);
-        mata_Kuliah23[] arrayOfMataKuliah23 = new mata_Kuliah23[3];
-        String kode, nama, dummy;
-        int sks, jumlahJam;
+        int indeks;
+        
+        System.out.print("Masukkan Jumlah Mata Kuliah: ");
+        indeks = kiyah.nextInt();
+        mata_Kuliah23[] arrayOfMataKuliah23 = new mata_Kuliah23[indeks];
 
         for (int i = 0; i < arrayOfMataKuliah23.length; i++) {
             arrayOfMataKuliah23[i] = new mata_Kuliah23();
@@ -16,6 +18,7 @@ public class mataKuliahDemo23 {
         }
         for (int i = 0; i < arrayOfMataKuliah23.length; i++) {
             System.out.println("Data Matakuliah ke-" + (i + 1));
+            arrayOfMataKuliah23[i].cetakInfo();
             System.out.println("---------------------------------------");
         }
     }
