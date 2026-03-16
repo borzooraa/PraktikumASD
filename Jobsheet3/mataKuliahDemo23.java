@@ -21,6 +21,7 @@ public class mataKuliahDemo23 {
             jumlahJam = Integer.parseInt(dummy);
             System.out.println("---------------------------------------");
 
+            
             arrayOfMataKuliah23[i] = new mata_Kuliah23(kode, nama, sks, jumlahJam);
         }
         for (int i = 0; i < arrayOfMataKuliah23.length; i++) {
