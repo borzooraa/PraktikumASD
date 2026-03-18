@@ -91,4 +91,5 @@ dimana arti dari basecase tersebut yaitu,ketika indeks kanan dan kiri sama.
 ## 5.3 Tugas
 ### Tugas 1
 Hasil running pada tugas 1 yaitu seperti pada di bawah ini
+
 ![Screenshot](img/tugas1.png)
