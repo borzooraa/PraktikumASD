@@ -5,7 +5,7 @@
 | Kelas | TI - 1F |
 | Repository | [link] (https://github.com/borzooraa/PraktikumASD/tree/main/Jobsheet3) |
 
-# Labs #3 OBJECT
+# Labs #3 ARRAY OF OBJECT
 
 ## 3.1 Perccobaan 1 (Membuat Array dari Object, mengisi dan Menampilkan)
 ### 3.1.1 Hasil percobaan
