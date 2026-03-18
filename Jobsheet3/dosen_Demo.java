@@ -23,14 +23,17 @@ public class dosen_Demo {
             System.out.println("--------------------------------------");
             arrayOfDosen[i] = new dosen_23(kode, nama, jenisKelamin, usia);
         }
-        for (int i = 0; i < arrayOfDosen.length; i++) {
-            System.out.println("Data Dosen ke-" + (i + 1));
-            System.out.println("Kode                  : " + arrayOfDosen[i].kode);
-            System.out.println("Nama                  : " + arrayOfDosen[i].nama);
-            String gender =  arrayOfDosen[i].jenisKelamin==true?"P":"L";
+        int counter = 1;
+        for (dosen_23 dosen_23 : arrayOfDosen) {
+            System.out.println("Data Dosen ke-" + counter);
+            System.out.println("Kode                  : " + dosen_23.kode);
+            System.out.println("Nama                  : " + dosen_23.nama);
+            String gender = dosen_23.jenisKelamin == true ? "Wanita" : "Pria";
             System.out.println("Jenis Kelamin(P/L)    : " + gender);
-            System.out.println("Usia                  : " + arrayOfDosen[i].usia);
+            System.out.println("Usia                  : " + dosen_23.usia);
             System.out.println("--------------------------------------");
+            counter++;
+
         }
     }
 }
