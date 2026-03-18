@@ -85,6 +85,7 @@ dimana hasil runningnya berupa:
 ![Screenshot](img/P3P3_running.png)
 
 4. Mempdifikasi program agar jumlah elemen dari array of object teersebut ditentukan oleh user dapat dilihat seperti pada di bawah ini
+
 ![Screenshot](img/P3P4.png)
 
 dimana pada program tersebut, indek yang mulanya [i] diganti menjadi [indeks] dimana kita menambahkan variable indeks dan memasukkan jumlah elemen menggunakan scanner di awal. 
