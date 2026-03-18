@@ -63,11 +63,11 @@ dimana hasilnya mirip dengan di jobsheet (saya ubah inputannya saja)
 
 2. Menambahkan method tambahData pada class mata_Kuliah23 yaitu dapat dilakukan seperti pada di bawah ini:
 
-![Screenshot](img/P3P2.png)
+![Screenshot](img/P3P2_MK.png)
 
 dan menggunakan method tersebut di dalam class MataKuliahDemo23 untuk menambahkan data dapat dilakukan seperti pada gambar di bawah ini:
 
-![Screenshot](img/P3P2_MK.png)
+![Screenshot](img/P3P2_MKD.png)
 
 dengan hasil dari program tersebut yaitu
 
