@@ -27,6 +27,7 @@ Hasil yang sama seperti pada jobsheets praktikum
 Hasil run pada percobaan kedua yaitu seperti pada di bawah ini
 
 ![Screenshot](img/percobaan2.png)
+
 Hasil yang sama seperti pada jobsheets praktikum
 
 ### 3.2.2 Jawaban pertanyaan:
