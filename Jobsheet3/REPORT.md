@@ -63,15 +63,15 @@ dimana hasilnya mirip dengan di jobsheet (saya ubah inputannya saja)
 
 2. Menambahkan method tambahData pada class mata_Kuliah23 yaitu dapat dilakukan seperti pada di bawah ini:
 
-![Screenshot](img/P3P2_MK.png)
+![Screenshot](img/P3P2.png)
 
 dan menggunakan method tersebut di dalam class MataKuliahDemo23 untuk menambahkan data dapat dilakukan seperti pada gambar di bawah ini:
 
-![Screenshot](img/P3P2_MKD.png)
+![Screenshot](img/P3P2_MK.png)
 
 dengan hasil dari program tersebut yaitu
 
-![Screenshot](img/P3P2_MKD.png)
+![Screenshot](img/P3P2_running.png)
 
 3. menambahkan method cetakInfo() pada class mata_Kuliah23 yaitu dapat dilakukan seperti kode di bawah ini:
 
@@ -85,7 +85,6 @@ dimana hasil runningnya berupa:
 ![Screenshot](img/P3P3_running.png)
 
 4. Mempdifikasi program agar jumlah elemen dari array of object teersebut ditentukan oleh user dapat dilihat seperti pada di bawah ini
-
 ![Screenshot](img/P3P4.png)
 
 dimana pada program tersebut, indek yang mulanya [i] diganti menjadi [indeks] dimana kita menambahkan variable indeks dan memasukkan jumlah elemen menggunakan scanner di awal. 
