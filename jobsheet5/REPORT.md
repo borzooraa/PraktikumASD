@@ -30,7 +30,7 @@ dengan hasil running seperti di bawah ini:
 dimana hasil running menggunakan perulangan FOR ataupun WHILE tetap sama.
 3. Perbedaan antara keduanya yaitu:
 - fakto*=i, mulai dari angka yang paling kecil (contoh: 3!=1 x 2 x 3), selain itu pendekatannya lebih sederhana.
--fakto = n * faktorialDC(n-1), mulai dari angka yang paling besar (contoh: 3 x 2 x 1), sementara pendekatan lebih rumit dengan membagi masalah menjadi bagian yang lebih kecil.
+- fakto = n * faktorialDC(n-1), mulai dari angka yang paling besar (contoh: 3 x 2 x 1), sementara pendekatan lebih rumit dengan membagi masalah menjadi bagian yang lebih kecil.
 4. Kesimpulan perbedaan cara kerja method keduanya yaitu:
 - faktorialBF(), menggunakan Brute Force pendekatan looping yang lebih sederhana.
 - faktorialDC(), menggunakan pendekatan Device and Conquer yang lebih rumit, dengan membagi masalah menjadi bagian yang lebih kecil
