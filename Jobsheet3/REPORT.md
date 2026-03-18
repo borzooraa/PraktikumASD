@@ -3,7 +3,7 @@
 | NIM |  254107020229|
 | Nama | Nurfakiyah Rahmadhani |
 | Kelas | TI - 1F |
-| Repository | [link] (https://github.com/borzooraa/PraktikumASD/tree/main/Jobsheet2) |
+| Repository | [link] (https://github.com/borzooraa/PraktikumASD/tree/main/Jobsheet3) |
 
 # Labs #3 OBJECT
 
