@@ -37,6 +37,22 @@ dimana hasil running sama dengan hasil verifikasi pada jobsheet  5
 
 dimana mkita menetapkan dulu bahwa indeks ke-i adalah nilai terkecil dengan min=i. Kemudian loop j mencari yang lebih kecil dibandingkan dengan i atau data sebelumnya. jika ditemukan data yang lebih kecil, maka min diganti dengan indeks nilai yang lebih kecil.
 3. Maksud dari kondisi perulangan tersebut yaitu sebagai batas agar nilai  nilai yang disisipkan tidak keluaar dari batas array dan juga untuk mengecek apakah data lebih besar dari nilai yang akan disisippkan. Jika kedua kondisi benar maka data akan digeser ke kanan
-4. tujuan dari perintah tersebut yaitu, untuk menggeser elemen ke kanan dan memberikan ruang untuk memasukkan temp ke tempat yang benar
+4. Tujuan dari perintah tersebut yaitu, untuk menggeser elemen ke kanan dan memberikan ruang untuk memasukkan temp ke tempat yang benar
 
+## 5.2 Praktikum 2 (Sorting Menggunakan Array of Object)
+### a. P21
+Untuk hasil P21 dapat dilihat pada gambar di bawah ini:
 
+![Screenshot](img/P2_Run11.png)
+
+![Screenshot](img/P2_Run12.png)
+
+Merupakah hasil yang sama sepertihasil verivikasi pada pada jobsheets
+
+### Pertanyaan 
+1. Soal
+a. Karena pada bubble sort, setiap perulangan akan menempatkan 1 data terbesar ke posisi akhir.
+Jumlah maksimal perulangan yang dibutuhkan adalah n-1 kali (n = jumlah data), karena jika sudah n-1 kali, data pasti sudah terurut semua.
+Jadi, tidak perlu sampai length, cukup dengan length -1
+b. Karena setiap perulangan ke-i, bagian akhir array sudah terurut.Jadi, tidak perlu dibandingkan lagi.
+c. Baik perulangan i maupun tahapan bubble sort berjumlah 49 kali
