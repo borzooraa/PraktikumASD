@@ -9,7 +9,17 @@
 
 ## 5.1 Praktikum 1 (Mengimplementasi Sorting menggunakan object)
 ### a. Sorting - Bubble sort
-untuk hasil percobaan sorting terdapat pada gambar di bawah ini
+untuk hasil percobaan "sorting - bubble sort" terdapat pada gambar di bawah ini
 
 ![Screenshot](img/P1a_Run.png)
+
+dimana hasil running sama dengan hasil verifikasi pada jobsheet  5
+
+### b. Sorting - Selection Sort
+untuk hasil percobaan "sorting - selection sort" terdapat pada gambar di bawah ini
+
+![Screenshot](img/P1b_Run.png)
+
+### c. Sorting - insertion Sort
+untuk hasil percobaan "sorting - 
 
