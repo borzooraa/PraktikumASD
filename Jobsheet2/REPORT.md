@@ -5,7 +5,7 @@
 | Kelas | TI - 1F |
 | Repository | [link] (https://github.com/borzooraa/PraktikumASD/tree/main/Jobsheet2) |
 
-# Labs #1 OBJECT
+# Labs #2 OBJECT
 
 ## 1.1. Percobaan 1
 untuk hasil running program pada percobaan 1 yaitu seperti pada gambar di bawah ini
