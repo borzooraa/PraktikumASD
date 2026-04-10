@@ -3,7 +3,7 @@
 | NIM |  254107020229|
 | Nama | Nurfakiyah Rahmadhani |
 | Kelas | TI - 1F |
-| Repository | [link] (https://github.com/borzooraa/PraktikumASD/tree/main/Jobsheet%201) |
+| Repository | [link] (https://github.com/borzooraa/PraktikumASD/blob/main/CM1/REPORT.md) |
 
 # Labs # CASE METHOD 1
 
@@ -27,8 +27,8 @@ untuk hasil outputan setiap output dapat dilihat seperti di bawah inii:
 
 5. Menu 5
 
-! [Screenshot](img/M5.png)
+![Screenshot](img/M5.png)
 
 6. Menu 0 
 
-! [Screenshot](img/M0.png)
+![Screenshot](img/M0.png)
