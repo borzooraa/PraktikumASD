@@ -56,3 +56,11 @@ Jumlah maksimal perulangan yang dibutuhkan adalah n-1 kali (n = jumlah data), ka
 Jadi, tidak perlu sampai length, cukup dengan length -1
 b. Karena setiap perulangan ke-i, bagian akhir array sudah terurut.Jadi, tidak perlu dibandingkan lagi.
 c. Baik perulangan i maupun tahapan bubble sort berjumlah 49 kali
+2. Hasil dari modifikasi program agar data mahasiswa bersifat dinamin ada pada gambar di bawah ini:
+
+![Screenshot](img/P21_P2S1.png)
+
+![Screenshot](img/P21_P2S2.png)
+
+![Screenshot](img/P21_P2S3.png)
+
