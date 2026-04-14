@@ -96,4 +96,14 @@ Untuk hasil percobaan praktikum dapat di lihat di bawah ini:
 pada percobaan kali ini menggunakan metode ascending yaitu dimulai dari yang terkecil (Insertion sort). Dimana dari hasil verifikasi, untuk hasilnya sama dengan yang ada di jobsheet meskipun isi atau  nilainya berbeda.
 
 ### 5.2.6 Pertanyaan
+1. Hasil mengubah InsertionSort ascending yang mulanya seperti:
 
+![Screenshot](img/P23_R5.png)
+
+menjadi insertionSort descending yang seperti:
+
+![Screenshot](img/P23_Q.png)
+
+dimana yang membedakan hanyalah kode lebih dari yang di ubah menjadi kurang dari pada MahasiswaBerprestasi.
+
+## Latihan Praktikum
