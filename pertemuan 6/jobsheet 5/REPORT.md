@@ -40,16 +40,16 @@ dimana mkita menetapkan dulu bahwa indeks ke-i adalah nilai terkecil dengan min=
 4. Tujuan dari perintah tersebut yaitu, untuk menggeser elemen ke kanan dan memberikan ruang untuk memasukkan temp ke tempat yang benar
 
 ## 5.2 Praktikum 2 (Sorting Menggunakan Array of Object)
-### a. P21
-Untuk hasil P21 dapat dilihat pada gambar di bawah ini:
+### 5.2.1 Verifikasi hasil percobaan
+Untuk hasil percobaan dapat dilihat pada gambar di bawah ini:
 
 ![Screenshot](img/P2_Run11.png)
 
 ![Screenshot](img/P2_Run12.png)
 
-Merupakah hasil yang sama sepertihasil verivikasi pada pada jobsheets
+Merupakah hasil yang sama seperti hasil verivikasi pada pada jobsheets
 
-### Pertanyaan 
+### 5.2.2 Pertanyaan 
 1. Soal
 a. Karena pada bubble sort, setiap perulangan akan menempatkan 1 data terbesar ke posisi akhir.
 Jumlah maksimal perulangan yang dibutuhkan adalah n-1 kali (n = jumlah data), karena jika sudah n-1 kali, data pasti sudah terurut semua.
@@ -63,4 +63,37 @@ c. Baik perulangan i maupun tahapan bubble sort berjumlah 49 kali
 ![Screenshot](img/P21_P2S2.png)
 
 ![Screenshot](img/P21_P2S3.png)
+
+### 5.2.3 Verifikasi percobaan
+Untuk hasil percobaan praktikum dapat di lihat di bawah ini:
+
+![Screenshot](img/P22_R1.png)
+
+![Screenshot](img/P22_R2.png)
+
+![Screenshot](img/P22_R3.png)
+
+![Screenshot](img/P22_R4.png)
+
+pada percobaan kali ini menggunakan metode ascending yaitu dimulai dari yang terkecil (Selection sort). Dimana dari hasil verifikasi, untuk hasilnya sama dengan yang ada di jobsheet meskipun isi atau  nilainya berbeda.
+
+### 5.2.4 Pertanyaan
+1.  Baris program tersebut berfungsi untuk mencari indeks mahasiswa dengan IPK terkecil pada bagian array yang belum terurut dalam algoritma selection sort, di mana idxMin awalnya di-set sebagai posisi i lalu dilakukan perulangan dari j = i+1 hingga akhir array untuk membandingkan setiap IPK; jika ditemukan IPK yang lebih kecil dari IPK pada idxMin, maka indeks tersebut diperbarui, sehingga setelah perulangan selesai idxMin akan menyimpan posisi nilai minimum yang kemudian ditukar dengan elemen pada posisi i agar data tersusun secara ascending.
+
+### 5.2.5 Verifikasi percobaan
+Untuk hasil percobaan praktikum dapat di lihat di bawah ini:
+
+![Screenshot](img/P23_R1.png)
+
+![Screenshot](img/P23_R2.png)
+
+![Screenshot](img/P23_R3.png)
+
+![Screenshot](img/P23_R4.png)
+
+![Screenshot](img/P23_R5.png)
+
+pada percobaan kali ini menggunakan metode ascending yaitu dimulai dari yang terkecil (Insertion sort). Dimana dari hasil verifikasi, untuk hasilnya sama dengan yang ada di jobsheet meskipun isi atau  nilainya berbeda.
+
+### 5.2.6 Pertanyaan
 
