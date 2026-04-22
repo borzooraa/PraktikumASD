@@ -21,3 +21,8 @@ Hasil running dari percobaan tersebut ada di bawah ini:
  4. Jika ada lebih dari satu nilai yang sesuai dengan pencarian, maka data yang ditampilkan adalah data yang paling depan di urutan array. Ini dikarenakan ada perintah break, dimana jika data yang dicari sudah ditemukan dia akan berhenti dan tidak melihat apakah ada data yang sesuai lagi dibelakangnya.
  5. Jika perintah break dihapus, maka perulangan akan selalu dilakukan sampai akhir array. Dengan demikian, jika ada lebih dari satu data yang sesuai dengan pencarian, maka data di urutan yang paling belakang yang diambil, karena dia yang terakhir kali dilakukan operasi setelah memenuhi kondisi yang ada (nilai benar sebelumnya akan di gantikan).
 
+## 6.2 Percobaan 2
+
+![Screenshot](img/percobaan2A.png)
+
+![Screenshot](img/percobaan2B.png)
