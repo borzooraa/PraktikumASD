@@ -42,6 +42,15 @@ Hasil running dari percobaan tersebut ada di bawah ini:
 
  ![Screenshot](img/percobaan2pertanyaan5B.png)
 
- ![Screenshot](img/percobaan2pertanyaan5C.png)
+ ![Screenshot](img/percobaan2pertanyaan5C.png) 
 
+ 6. Binary search akan mengembalikan nilai -1 (data tidak ditemukan) ketika baris batas kiri sudah melewati batas kanan, tidak ada elemen yang bisa di cek lagi
+
+ 7. 
+
+ ![Screenshot](img/percobaan2pertanyaan7A.png)
+ 
+ ![Screenshot](img/percobaan2pertanyaan7B.png) 
+
+ ![Screenshot](img/percobaan2pertanyaan7C.png) 
  
