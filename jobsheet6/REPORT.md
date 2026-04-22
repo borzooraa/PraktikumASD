@@ -26,3 +26,22 @@ Hasil running dari percobaan tersebut ada di bawah ini:
 ![Screenshot](img/percobaan2A.png)
 
 ![Screenshot](img/percobaan2B.png)
+
+ ### 6.2.1 Pertanyaan
+ 1. ![Screenshot](img/percobaan2pertanyaan1.png)
+
+ 2. ![Screenshot](img/percobaan2pertanyaan2.png)
+
+ 3. Left digunakan untuk menentukan batas kiri (awal), right menentukan batas kanan (akhir) dan mid digunakan untuk menyimpan index tengah antara left dan right yang membagi pencarian
+
+ 4. Jika data tidak urut, maka pencarian akan jadi tidak akurat, karena binary search melihat berdasarkan nilai tengah antara lebih kecil atau lebih besar dari yang dicari, yang akan menentukan dia mencari ke sisi kanan atau kiri. Data tidak urut membuatnya bisa saja mencari di sisi yang salah entah kiri atau kanan
+
+ 5. Jika data yang di input berurutan secara ascending, hasil searching tidak akan sesuai, maka perubahan yang diperlukan jika datanaya ascending adalah: 
+
+ ![Screenshot](img/percobaan2pertanyaan5A.png)
+
+ ![Screenshot](img/percobaan2pertanyaan5B.png)
+
+ ![Screenshot](img/percobaan2pertanyaan5C.png)
+
+ 

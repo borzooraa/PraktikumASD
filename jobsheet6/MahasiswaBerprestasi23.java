@@ -32,7 +32,8 @@ public class MahasiswaBerprestasi23 {
             mid = (left + right) / 2;
             if (cari==listMhs[mid].ipk) {
                 return (mid);
-            } else if (listMhs[mid].ipk > cari) {
+            } else if (listMhs[mid].ipk < cari) {
+                //Jika data yang didapat lebih kecil dari yang dicari, cari lagi ke sisi kiri
                 return findBinarySearch(cari, left, mid - 1);
             } else {
                 return findBinarySearch(cari, mid + 1, right);
