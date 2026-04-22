@@ -9,3 +9,8 @@
 
 ## 6.1 Percobaan 1
 Hasil running dari percobaan tersebut ada di bawah ini:
+
+![Screenshot](img/percobaan1A.png)
+
+![Screenshot](img/percobaan1B.png)
+
