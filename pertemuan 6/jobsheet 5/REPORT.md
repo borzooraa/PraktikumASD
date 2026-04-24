@@ -102,8 +102,18 @@ pada percobaan kali ini menggunakan metode ascending yaitu dimulai dari yang ter
 
 menjadi insertionSort descending yang seperti:
 
-![Screenshot](img/P23_Q.png)
+![Screenshot](img/P23_R3.png)
 
 dimana yang membedakan hanyalah kode lebih dari yang di ubah menjadi kurang dari pada MahasiswaBerprestasi.
 
 ## Latihan Praktikum
+
+![Screenshot](img/TugasA.png)
+
+![Screensht](img/TugasB.png)
+
+![Screensht](img/TugasC.png)
+
+![Screensht](img/TugasD.png)
+
+![Screensht](img/TugasE.png)
