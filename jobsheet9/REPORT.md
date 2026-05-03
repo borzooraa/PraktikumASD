@@ -7,6 +7,7 @@
 
 # Labs #9 STACK
 ## 9.1 Percobaan 1: Mahasiswa Mengumpulkan Tugas
+## 9.1.1 Hasil verifikasi
 Hasil verivikasi percobaan satu dapat dilihat di gambar di bawah ini.
 
 ![Screensht](img/P1_ver1.png)
@@ -23,7 +24,16 @@ Hasil verivikasi percobaan satu dapat dilihat di gambar di bawah ini.
 
 ![Screensht](img/P1_ver7.png)
 
-dimana hasilnya sama dengan yang ada di jobsheet.
+## 9.2.2 Pertanyaan
+1. Bagian program yang perlu diganti terletak pada class stackTugasMahasiswa23 pada method print(), dimana yang awalnya
 
-## 9.2 
+![Screensht](img/P1P1_bfr.png)
+
+menjadi
+
+![Screensht](img/P1P1_aft.png)
+
+2. Banyaknya data yang ditampung yaitu ada lima, dapat dilihat di potongan program berikut
+
+
 
