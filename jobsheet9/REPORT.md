@@ -38,7 +38,9 @@ menjadi
 ![Screensht](img/P1P2.png)
 
 dimana 5 merupakan ukuran/size dari program yang telah dibuat
+
 3. Perlunya pengecekan kondisi !isFull yaitu agar isi dari array stackTugasMahasiswa tidak overflow. Dan yang akan terjadi jika kondisi if-else tersebut dihapus, maka program akan mengakses indeks array yang tidak ada, yang mengakibatkan program akan error outOfBound.
+
 4. Agar pengguna dapat melihat mahasiwa yang pertama kali mengumpulkan tugas yaitu dapat dengan menambahkan program pada class mahasiswa demo, yaitu:
 
 ![Screensht](img/P1P4_1.png) 
