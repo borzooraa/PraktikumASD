@@ -86,13 +86,13 @@ public class stackTugasMahasiwa23 {
 
     public String konversiDesimalkeBiner(int nilai) {
         stackKonversi stack = new stackKonversi();
-        while (nilai > 0) {
+        while (nilai != 0) {
             int sisa = nilai % 2;
             stack.push(sisa);
             nilai = nilai / 2;
         }
         String biner = new String();
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()) {
             biner += stack.pop();
         }
         return biner;

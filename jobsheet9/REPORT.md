@@ -64,6 +64,14 @@ Hasil verifikasi percobaan 2 dapat dilihat pada gambar di bawah ini:
 
 ![Screensht](img/P2_ver.png)
 
+### 9.2.2 Pertanyaan
+1. Alur kerja dari method konversiDesimal ke biner yaitu
+- Pertama, membuat object stack biner dari class yang sudah ada.
+- Kemudian melakukan perulangan dengan mengambil modulus parameter nilai ketika dibagi dua dan memasukkan ke dalam stack hingga nilai mecapai nol.
+- Lalu mendeklarasikan variable string biner dan memebuat perulangan kedua. Pada perulangan kedua, mengeluarkan bilangan biner dari stack biner urut dari yang terakhir masuk, dan dimasukkan ke String biner.
+- return String biner agar diterima oleh program yang memanggilnya.
+2. perubahan itu tidak memberikan dampak signifikan, karena baik program yang sekaranga tau yang sebelumnya smaa-sama menghentikan perulangan ketika nilai sama dengan 0.
+
 
 
 
