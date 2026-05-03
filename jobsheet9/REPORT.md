@@ -51,7 +51,7 @@ lalu pada class yang sama menambahkan menu 5:
 
 dan juga pada class yang sama, mengganti batas seperti pada gambar di bawah ini
 
-![Screensht](img/P1P4_13.png)
+![Screenshot](img/P1P4_13.png)
 
 dimana penggantian batas itu dikarenakan menu sudah bertambah menjadi 5 yang awalnya cuma 4.
 5. penambahan method dilakukan di class stackTugasMahasiswa23() dapat dilihat seperti pada gambar di bawah ini:
@@ -62,7 +62,7 @@ dimana penggantian batas itu dikarenakan menu sudah bertambah menjadi 5 yang awa
 ### 9.2.1 Hasil verifikasi
 Hasil verifikasi percobaan 2 dapat dilihat pada gambar di bawah ini:
 
-![Screensht](img/P2_ver.png)
+![Screenshot](img/P2_ver.png)
 
 ### 9.2.2 Pertanyaan
 1. Alur kerja dari method konversiDesimal ke biner yaitu
@@ -75,23 +75,23 @@ Hasil verifikasi percobaan 2 dapat dilihat pada gambar di bawah ini:
 ## Tugas
 Hasil Run tugas dapat dilihat pada gambar dibawah ini
 
-![Screenshot](tugas1.png)
+![Screenshot](img/tugas1.png)
 
-![Screenshot](tugas2.png)
+![Screenshot](img/tugas2.png)
 
-![Screenshot](tugas 3.png)
+![Screenshot](img/tugas 3.png)
 
-![Screenshot](tugas4.png)
+![Screenshot](img/tugas4.png)
 
-![Screenshot](tugas5.png)
+![Screenshot](img/tugas5.png)
 
-![Screenshot](tugas6.png)
+![Screenshot](img/tugas6.png)
 
-![Screenshot](tugas7.png)
+![Screenshot](img/tugas7.png)
 
-![Screenshot](tugas8.png)
+![Screenshot](img/tugas8.png)
 
-![Screenshot](tugas9.png)
+![Screenshot](img/tugas9.png)
 
 
 
