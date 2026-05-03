@@ -52,6 +52,9 @@ dan juga pada class yang sama, mengganti batas seperti pada gambar di bawah ini
 ![Screensht](img/P1P4_13.png)
 
 dimana penggantian batas itu dikarenakan menu sudah bertambah menjadi 5 yang awalnya cuma 4.
+5. penambahan method dilakukan di class stackTugasMahasiswa23() dapat dilihat seperti pada gambar di bawah ini:
+
+![Screensht](img/P1P5_stack.png)
 
 
 

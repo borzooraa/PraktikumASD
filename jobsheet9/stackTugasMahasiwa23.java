@@ -1,7 +1,7 @@
 public class stackTugasMahasiwa23 {
     mahasiswa23[] stack;
     int top;
-    int size;
+    int size, count;
 
     public stackTugasMahasiwa23(int size) {
         this.size = size;
@@ -61,12 +61,25 @@ public class stackTugasMahasiwa23 {
         System.out.println("");
     }
 
-    public mahasiswa23 peekBottom() { //menambahkan method untuk dipanggil di mahasiswaDemo23
+    public mahasiswa23 peekBottom() { // menambahkan method untuk dipanggil di mahasiswaDemo23
         if (!isEmpty()) {
-            return stack[0]; 
+            return stack[0];
         } else {
             System.out.println("Stack kosong!");
             return null;
+        }
+    }
+
+    void count() { //membuat method untuk menghitung jumlah tugas, agar bisa dipanggil di class demo
+        if (count == 0) {
+            System.out.println("Belum pernah ada tugas yang dikumpulkan");
+        } else {
+            System.out.println("Total tugas yang dikumpulkan: " + count);
+            if (isEmpty()) {
+                System.out.println("Stack kosong! Tidak ada tugas yang belum dinilai");
+            } else {
+                System.out.println("Jumlah tugas yang belum dinilai: " + (top + 1));
+            }
         }
     }
 }

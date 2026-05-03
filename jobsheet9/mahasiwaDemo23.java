@@ -13,6 +13,7 @@ public class mahasiwaDemo23 {
             System.out.println("3. Melihat Tugas Teratas");
             System.out.println("4. Melihat Daftar Tugas");
             System.out.println("5. Mahasiswa pertama mengumpulkan");
+            System.out.println("6. Banyak tugas yang dikumpulkan");
             System.out.print("Pilih: ");
             pilih = kiyah.nextInt();
             kiyah.nextLine();
@@ -55,9 +56,12 @@ public class mahasiwaDemo23 {
                         System.out.println("Mahasiswa yang perta mengumpulkan tugas yaitu: " + bawah.nama);
                     }
                     break;
+                case 6: // menambahkan case 6 untuk menapilkan jumlah tugas
+                stack.count();
+                break;
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
-        } while (pilih >= 1 && pilih <= 5); // Mengubah batas yang awalnya dari 1 sampai 4 menjadi 1 sampai 5
+        } while (pilih >= 1 && pilih <= 6); // Mengubah batas yang awalnya dari 1 sampai 5 menjadi 1 sampai 6
     }
 }
