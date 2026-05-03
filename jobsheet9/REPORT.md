@@ -7,7 +7,7 @@
 
 # Labs #9 STACK
 ## 9.1 Percobaan 1: Mahasiswa Mengumpulkan Tugas
-## 9.1.1 Hasil verifikasi
+### 9.1.1 Hasil verifikasi
 Hasil verivikasi percobaan satu dapat dilihat di gambar di bawah ini.
 
 ![Screensht](img/P1_ver1.png)
@@ -24,7 +24,7 @@ Hasil verivikasi percobaan satu dapat dilihat di gambar di bawah ini.
 
 ![Screensht](img/P1_ver7.png)
 
-## 9.2.2 Pertanyaan
+### 9.2.2 Pertanyaan
 1. Bagian program yang perlu diganti terletak pada class stackTugasMahasiswa23 pada method print(), dimana yang awalnya
 
 ![Screensht](img/P1P1_bfr.png)
@@ -55,6 +55,13 @@ dimana penggantian batas itu dikarenakan menu sudah bertambah menjadi 5 yang awa
 5. penambahan method dilakukan di class stackTugasMahasiswa23() dapat dilihat seperti pada gambar di bawah ini:
 
 ![Screensht](img/P1P5_stack.png)
+
+## 9.2 Percobaan 2: Konversi Nilai ke Biner
+### 9.2.1 Hasil verifikasi
+Hasil verifikasi percobaan 2 dapat dilihat pada gambar di bawah ini:
+
+![Screensht](img/P2_ver.png)
+
 
 
 

@@ -70,7 +70,8 @@ public class stackTugasMahasiwa23 {
         }
     }
 
-    void count() { //membuat method untuk menghitung jumlah tugas, agar bisa dipanggil di class demo
+    void count() { // membuat method untuk menghitung jumlah tugas, agar bisa dipanggil di class
+                   // demo
         if (count == 0) {
             System.out.println("Belum pernah ada tugas yang dikumpulkan");
         } else {
@@ -81,5 +82,19 @@ public class stackTugasMahasiwa23 {
                 System.out.println("Jumlah tugas yang belum dinilai: " + (top + 1));
             }
         }
+    }
+
+    public String konversiDesimalkeBiner(int nilai) {
+        stackKonversi stack = new stackKonversi();
+        while (nilai > 0) {
+            int sisa = nilai % 2;
+            stack.push(sisa);
+            nilai = nilai / 2;
+        }
+        String biner = new String();
+        while (!stack.isEmpty()){
+            biner += stack.pop();
+        }
+        return biner;
     }
 }
