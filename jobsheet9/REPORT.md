@@ -72,6 +72,27 @@ Hasil verifikasi percobaan 2 dapat dilihat pada gambar di bawah ini:
 - return String biner agar diterima oleh program yang memanggilnya.
 2. perubahan itu tidak memberikan dampak signifikan, karena baik program yang sekaranga tau yang sebelumnya smaa-sama menghentikan perulangan ketika nilai sama dengan 0.
 
+## Tugas
+Hasil Run tugas dapat dilihat pada gambar dibawah ini
+
+![Screensht](tugas1.png)
+
+![Screensht](tugas2.png)
+
+![Screensht](tugas 3.png)
+
+![Screensht](tugas4.png)
+
+![Screensht](tugas5.png)
+
+![Screensht](tugas6.png)
+
+![Screensht](tugas7.png)
+
+![Screensht](tugas8.png)
+
+![Screensht](tugas9.png)
+
 
 
 
