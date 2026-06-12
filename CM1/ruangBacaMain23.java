@@ -25,6 +25,8 @@ public class ruangBacaMain23 {
                 new cmPeminjaman23(mhs[0], buku[0], 4),
         };
         int pilih;
+        boolean isCanceled;
+        String input = kiyah.nextLine();
         do {
             System.out.println("\n=== MENU ===");
             System.out.println("1. Tampilkan Data Mahasiswa & Buku");
@@ -38,7 +40,13 @@ public class ruangBacaMain23 {
 
             if (pilih == 1) {
                 System.out.println("\nDaftar Mahasiswa");
-                for (int i = 0; i < mhs.length; i++) {
+                for (int i = 0; i < mhs.length; i++) { // jawaban sesi 4 soal nomor 2
+                    if (pinjam[i].mhs.nim.equalsIgnoreCase(input))
+                        isCanceled = true;
+                    if (isCanceled = true) {
+                        mhs[i].tampilMahasiswa();
+                        continue;
+                    }
                     mhs[i].tampilMahasiswa();
                 }
             } else if (pilih == 2) {
@@ -69,14 +77,16 @@ public class ruangBacaMain23 {
             } else if (pilih == 5) {
                 kiyah.nextLine();
                 System.out.print("Masukkan NIM:");
-                String input = kiyah.nextLine();
+                input = kiyah.nextLine();
 
                 for (int i = 0; i < pinjam.length; i++) {
                     if (pinjam[i].mhs.nim.equalsIgnoreCase(input)) {
+                        isCanceled = true;
                         pinjam[i].tampil();
                     }
                 }
             }
+
         } while (pilih != 0);
     }
 }

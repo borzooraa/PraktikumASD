@@ -10,10 +10,13 @@ public class cmPeminjaman23 {
         hitungDenda();
     }
 
-    public void hitungDenda() {
+    public void hitungDenda() { // jawaban sesi 4 no 1
         if (lamaPinjam > 5) {
             terlambat = lamaPinjam - 5;
             denda = terlambat * 2000;
+            if (denda >= 20000) {
+                denda = 20000;
+            }
         } else {
             terlambat = 0;
             denda = 0;
