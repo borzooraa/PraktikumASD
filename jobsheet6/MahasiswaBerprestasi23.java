@@ -16,7 +16,7 @@ public class MahasiswaBerprestasi23 {
 
     void tampil() {
         for (Mahasiswa23 mahasiswa23 : listMhs) {
-            mahasiswa23.tampilInformasi();
+            mahasiswa23.tampilkanInformasi();
         }
     }
 

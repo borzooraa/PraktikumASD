@@ -27,9 +27,11 @@ terhadap kondisi awal linked list!
 
 5. Modifikasi Method print()
 : 
+
 ![Screenshot](img/p1pr5.png)
 
 6. Modifikasi Kode Program: Menambahkan Method
 :
+
 ![Screenshot](img/p1pr6.png)
 
