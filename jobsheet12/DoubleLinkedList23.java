@@ -1,14 +1,20 @@
 public class DoubleLinkedList23 {
     Node23 head;
     Node23 tail;
+    int size;
 
     public DoubleLinkedList23() {
         head = null;
         tail = null;
+        size = 0;
     }
 
     public boolean isEmpty() {
         return head == null;
+    }
+
+    public int size() {
+        return size;
     }
 
     public void addFirst(Mahasiswa23 data) {
@@ -20,6 +26,7 @@ public class DoubleLinkedList23 {
             head.prev = newNode;
             head = newNode;
         }
+        size++;
     }
 
     public void addLast(Mahasiswa23 data) {
@@ -31,6 +38,7 @@ public class DoubleLinkedList23 {
             newNode.prev = tail;
             tail = newNode;
         }
+        size++;
     }
 
     public void insertAfter(String keyNim, Mahasiswa23 data) {
@@ -53,7 +61,142 @@ public class DoubleLinkedList23 {
             current.next.prev = newNode;
             current.next = newNode;
         }
+        size++;
         System.out.println("Data berhasil disisipkan setelah NIM " + keyNim);
+    }
+
+    public void add(int index, Mahasiswa23 data) {
+        if (index < 0 || index > size) {
+            System.out.println("Indeks di luar batas.");
+            return;
+        }
+        if (index == 0) {
+            addFirst(data);
+        } else if (index == size) {
+            addLast(data);
+        } else {
+            Node23 current = head;
+            for (int i = 0; i < index; i++) {
+                current = current.next;
+            }
+            Node23 newNode = new Node23(data);
+            newNode.prev = current.prev;
+            newNode.next = current;
+            current.prev.next = newNode;
+            current.prev = newNode;
+            size++;
+        }
+    }
+
+    public void removeFirst() {
+        if (isEmpty()) {
+            System.out.println("Linked List kosong.");
+            return;
+        }
+        System.out.println("Data yang berhasil dihapus:");
+        head.data.tampil();
+        if (head == tail) {
+            head = tail = null;
+        } else {
+            head = head.next;
+            head.prev = null;
+        }
+        size--;
+    }
+
+    public void removeLast() {
+        if (isEmpty()) {
+            System.out.println("Linked List kosong.");
+            return;
+        }
+        System.out.println("Data yang berhasil dihapus:");
+        tail.data.tampil();
+        if (head == tail) {
+            head = tail = null;
+        } else {
+            tail = tail.prev;
+            tail.next = null;
+        }
+        size--;
+    }
+
+    public void removeAfter(String keyNim) {
+        if (isEmpty()) {
+            System.out.println("Linked List kosong.");
+            return;
+        }
+        Node23 current = head;
+        while (current != null && !current.data.nim.equals(keyNim)) {
+            current = current.next;
+        }
+        if (current == null || current.next == null) {
+            System.out.println("Tidak ada node setelah NIM " + keyNim + " untuk dihapus.");
+            return;
+        }
+        Node23 target = current.next;
+        System.out.println("Data yang berhasil dihapus:");
+        target.data.tampil();
+        if (target == tail) {
+            current.next = null;
+            tail = current;
+        } else {
+            current.next = target.next;
+            target.next.prev = current;
+        }
+        size--;
+    }
+
+    public void remove(int index) {
+        if (isEmpty() || index < 0 || index >= size) {
+            System.out.println("Indeks di luar batas atau list kosong.");
+            return;
+        }
+        if (index == 0) {
+            removeFirst();
+        } else if (index == size - 1) {
+            removeLast();
+        } else {
+            Node23 current = head;
+            for (int i = 0; i < index; i++) {
+                current = current.next;
+            }
+            System.out.println("Data yang berhasil dihapus:");
+            current.data.tampil();
+            current.prev.next = current.next;
+            current.next.prev = current.prev;
+            size--;
+        }
+    }
+
+    public void getFirst() {
+        if (isEmpty()) {
+            System.out.println("Linked List kosong.");
+            return;
+        }
+        System.out.println("Data Pertama:");
+        head.data.tampil();
+    }
+
+    public void getLast() {
+        if (isEmpty()) {
+            System.out.println("Linked List kosong.");
+            return;
+        }
+        System.out.println("Data Terakhir:");
+        tail.data.tampil();
+    }
+
+    public void getIndex(int index) {
+        if (isEmpty() || index < 0 || index >= size) {
+            System.out.println("Indeks di luar batas atau list kosong.");
+            return;
+        }
+        Node23 current = head;
+        for (int i = 0; i < index; i++) {
+            current = current.next;
+        }
+        System.out.println("Data pada Indeks ke-" + index + ":");
+        current.data.tampil();
     }
 
     public void print() {
@@ -65,50 +208,6 @@ public class DoubleLinkedList23 {
         while (current != null) {
             current.data.tampil();
             current = current.next;
-        }
-    }
-
-    public void printReverse() {
-        if (isEmpty()) {
-            System.out.println("Linked List masih kosong.");
-            return;
-        }
-        Node23 current = tail;
-        while (current != null) {
-            current.data.tampil();
-            current = current.prev;
-        }
-    }
-
-    public void removeFirst() {
-        if (isEmpty()) {
-            System.out.println("Linked List kosong.");
-            return;
-        }
-        System.out.println("Data yang berhasil dihapus:");
-        head.data.tampil();
-
-        if (head == tail) {
-            head = tail = null;
-        } else {
-            head = head.next;
-            head.prev = null;
-        }
-    }
-
-    public void removeLast() {
-        if (isEmpty()) {
-            System.out.println("Linked List kosong.");
-            return;
-        }
-        System.out.println("Data yang berhasil dihapus:");
-        tail.data.tampil();
-
-        if (head == tail) {
-            head = tail = null;
-        } else {
-            tail = tail.prev;
-            tail.next = null;
         }
     }
 }

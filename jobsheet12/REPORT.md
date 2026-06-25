@@ -51,4 +51,24 @@
 
  ![Screenshot](img/p2pr2b.png)
 
+
+ ## 12.3 Tugas
+ 1. 
+
+ ![Screenshot](img/t1.png)
+
+ 2. 
+
+ ![Screenshot](img/t2.png)
+
+ 3. 
+
+ ![Screenshot](img/t3.png)
+
+ 4. 
+
+ ![Screenshot](img/t4.png)
+
+ 5. 
  
+ ![Screenshot](img/t5.png)
