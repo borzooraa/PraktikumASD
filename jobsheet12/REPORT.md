@@ -8,6 +8,8 @@
 # Labs #12 Double Linked List
 ## 12.1 Percobaan 1
 
+ ![Screenshot](img/p1.png)
+
  ## 12.1.2 Pertanyaan
  1. Jelaskan perbedaan struktur dan mekanisme traversal antara Single Linked List dan Double Linked List!
  : Single Linked List hanya memiliki satu pointer yaitu `next`, sehingga node hanya terhubung ke node setelahnya dan traversal hanya bisa dilakukan dari depan ke belakang. Pada Double Linked List, setiap node memiliki dua pointer yaitu `next` dan `prev`, sehingga node terhubung ke node setelah dan sebelumnya. Karena itu traversal pada Double Linked List dapat dilakukan dua arah, maju maupun mundur. Selain itu, proses penyisipan dan penghapusan node pada Double Linked List lebih mudah karena dapat langsung mengakses node sebelumnya tanpa harus menelusuri ulang dari awal.
