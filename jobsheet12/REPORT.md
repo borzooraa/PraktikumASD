@@ -45,3 +45,10 @@
  * head.prev = null; Berfungsi untuk menghapus pointer previous milik node pertama yang baru (yang sebelumnya adalah node kedua) agar tidak lagi menunjuk ke node lama yang dihapus. Hal ini dilakukan agar objek node pertama yang lama dapat dibersihkan dari memori komputer (garbage collection).
 
  2. Modifikasi method removeFirst() dan removeLast() agar menampilkan data yang berhasil dihapus:
+ : 
+
+ ![Screenshot](img/p2pr2a.png)
+
+ ![Screenshot](img/p2pr2b.png)
+
+ 
