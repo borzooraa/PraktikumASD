@@ -18,3 +18,7 @@
  2. Jelaskan kegunaan variable temp secara umum pada setiap method!
  : temp digunakan untuk bergeser satu per satu menelursuri linked list tanpa mengubah posisi head nya
  3. Lakukan modifikasi agar data dapat ditambahkan dari keyboard!
+
+ ![Screenshot](img/p1pr3.png)
+
+ ![Screenshot](img/p1pr3b.png)
