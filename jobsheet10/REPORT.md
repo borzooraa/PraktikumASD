@@ -23,4 +23,14 @@
  : Kode ini digunakan untuk mengubah posisi indeks i secara melingkar (circular array). Ketika nilai i sudah mencapai batas maksimum array (max - 1), operasi % max akan mengembalikan nilai i ke indeks 0.
  6. Potongan kode program yang merupakan queue overflow:
 
+ ![Screenshot](img/p1pr6.png)
+
+ 7. Modifikasi program dihentikan saat overflow dan underflow:
+
+ ![Screenshot](img/p1pr7a.png)
+ 
+ ![Screenshot](img/p1pr7b.png)
+
+
+
  

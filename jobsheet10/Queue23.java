@@ -57,6 +57,7 @@ public class Queue23 {
     public void enqueue(int dt) {
         if (isFull()) {
             System.out.println("Queue sudah penuh (Overflow)");
+            System.exit(0);
         } else {
             if (isEmpty()) {
                 front = 0;
@@ -71,6 +72,7 @@ public class Queue23 {
         int dt = 0;
         if (isEmpty()) {
             System.out.println("Queue masih kosong (Underflow)");
+            System.exit(0);
         } else {
             dt = data[front];
             size--;
