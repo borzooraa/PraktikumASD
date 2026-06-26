@@ -32,3 +32,15 @@
  : Keyword break digunakan untuk menghentikan proses perulangan (while) secara paksa setelah node yang dicari (berdasarkan key) berhasil ditemukan dan dihapus. Karena setiap mahasiswa memiliki nama atau identitas unik dalam kasus ini, setelah data yang cocok dihapus, kita tidak perlu lagi melanjutkan penelusuran sisa node di dalam linked list, sehingga dapat menghemat waktu eksekusi program
  2. Jelaskan kegunaan kode dibawah pada method remove!
  : temp.next = temp.next.next; : Baris ini berfungsi untuk menghapus node target dengan cara melompati (memutus hubungan) node tersebut. Pointer next dari node sebelum target (temp) langsung diarahkan ke node setelah target (temp.next.next), sehingga node target terlepas dari rangkaian list.  if (temp.next == null) { tail = temp; } : Kondisi ini digunakan untuk mengecek apakah node yang baru saja dihapus berada di posisi paling belakang. Jika setelah dihapus ternyata temp.next bernilai null (tidak ada node lagi di depannya), berarti temp sekarang menjadi node terakhir, sehingga atribut tail harus diperbarui untuk menunjuk ke temp
+
+## Tugas
+
+![Screenshot](img/t1.png)
+
+![Screenshot](img/t2.png)
+
+![Screenshot](img/t3.png)
+
+![Screenshot](img/t4.png)
+
+![Screenshot](img/t5.png)
