@@ -8,6 +8,10 @@
 # Labs #11 Singe Linked List
 ## 11.1 Percobaan 1
 
+![Screenshot](img/p1a.png)
+
+![Screenshot](img/p1b.png)
+
  ## 11.1.2 Pertanyaan
  1. Mengapa hasil compile kode program di baris pertama menghasilkan “Linked List Kosong”?
  : Karena saat pertama kali sll.print() dipanggil, linked list masih belum berisi data apa-apa
