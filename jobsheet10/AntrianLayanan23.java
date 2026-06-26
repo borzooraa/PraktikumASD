@@ -98,5 +98,14 @@ public class AntrianLayanan23 {
         System.out.println("Jumlah antrian saat ini: " + size);
     }
 
+    // tambahan untuk soal pertanyaan
 
+    void lihatAkhir() {
+        if (!isEmpty()) {
+            System.out.println("Antrian paling belakang:");
+            data[rear].tampilkanData();
+        } else {
+            System.out.println("Antrian kosong");
+        }
+    }
 }

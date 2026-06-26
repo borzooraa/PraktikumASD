@@ -40,7 +40,23 @@
 ![Screenshot](img/p2c.png)
 
  ### 10.2.1 Pertanyaan
- 
+
+ ![Screenshot](img/p2pr1.png)
+
+## 10.3 Tugas
+
+ ![Screenshot](img/t1.png)
+
+ ![Screenshot](img/t2.png)
+
+ ![Screenshot](img/t3.png)
+
+ ![Screenshot](img/t4.png)
+
+ ![Screenshot](img/t5.png)
+
+ ![Screenshot](img/t6.png)
+
 
 
 
