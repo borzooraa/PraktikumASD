@@ -15,10 +15,10 @@ public class Mahasiswa23 {
     }
 
     public void tampilInformasi() {
-        System.out.println(nama);
-        System.out.println(nim);
-        System.out.println(kelas);
-        System.out.println(ipk);
+        System.out.print(nama+"\t");
+        System.out.print(nim+"\t");
+        System.out.print(kelas+"\t");
+        System.out.print(ipk+"\t");
         System.out.println();
     }
 }

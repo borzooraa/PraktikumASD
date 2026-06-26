@@ -22,3 +22,7 @@
  ![Screenshot](img/p1pr3.png)
 
  ![Screenshot](img/p1pr3b.png)
+
+## 11.2 Percobaan 2
+
+![Screenshot](img/p2.png)
