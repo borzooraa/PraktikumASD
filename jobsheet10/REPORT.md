@@ -31,6 +31,19 @@
  
  ![Screenshot](img/p1pr7b.png)
 
+## 10.2 Percobaan 2
+
+![Screenshot](img/p2a.png)
+
+![Screenshot](img/p2b.png)
+
+![Screenshot](img/p2c.png)
+
+ ### 10.2.1 Pertanyaan
+ 
+
+
+
 
 
  
